@@ -10,7 +10,8 @@ Speed: -2
 LB、LBU、LH、LHU、LW、SB、SH、SW、ADD、ADDU、SUB、SUBU、SLL、SRL、SRA、SLLV、SRLV、SRAV、 AND、OR、XOR、NOR、ADDI、ADDIU、ANDI、ORI、XORI、LUI、SLT、SLTI、 SLTIU、SLTU、BEQ、BNE、BLEZ、BGTZ、BLTZ、BGEZ、J、JAL、JALR、JR、ERET、MFC0、MTC0
 ·Interruption supported (Timer and MiniUART can send interruption requests)
 ·Serial Communication through MiniUART module (RS-232 prototype)
-![image](https://github.com/jasonlovescoding/MIPS32CPU-5stage-pipelined/tree/master/images/1.PNG)
-![image](https://github.com/jasonlovescoding/MIPS32CPU-5stage-pipelined/tree/master/images/2.PNG)
-![image](https://github.com/jasonlovescoding/MIPS32CPU-5stage-pipelined/tree/master/images/3.PNG)
-![image](https://github.com/jasonlovescoding/MIPS32CPU-5stage-pipelined/tree/master/images/4.JPG)
+·Forwarding as long as it's possible. Stalling when needed.
+![image](https://github.com/jasonlovescoding/MIPS32CPU-5stage-pipelined/tree/master/images/1.PNG)\n
+![image](https://github.com/jasonlovescoding/MIPS32CPU-5stage-pipelined/tree/master/images/2.PNG)\n
+![image](https://github.com/jasonlovescoding/MIPS32CPU-5stage-pipelined/tree/master/images/3.PNG)\n
+![image](https://github.com/jasonlovescoding/MIPS32CPU-5stage-pipelined/tree/master/images/4.JPG)\n
